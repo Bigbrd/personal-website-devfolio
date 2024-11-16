@@ -3,7 +3,7 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://bigbrd.github.io/personal-website-devfolio/`,
     // Your Name
-    name: 'Bryan Dickens',
+    name: 'Bryan Dickenstestchanges',
     // Main Site Title
     title: `Bryan Dickens  | Software Engineer`,
     // Description that goes under your name in main bio
