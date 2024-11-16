@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://bigbrd.github.io/personal-website-devfolio/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Bryan Dickens',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Bryan Dickens  | Software Engineer`,
     // Description that goes under your name in main bio
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@brdick`,
     // Optional: Github account URL
     github: `https://github.com/ryanfitzgerald`,
     // Optional: LinkedIn account URL
