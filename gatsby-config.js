@@ -3,7 +3,7 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://bigbrd.github.io/personal-website-devfolio/`,
     // Your Name
-    name: 'Bryan Dickenstestchanges',
+    name: 'Bryan Dickens',
     // Main Site Title
     title: `Bryan Dickens  | Software Engineer`,
     // Description that goes under your name in main bio
@@ -19,6 +19,9 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        
+        //IDEA - make blog pages out of the projects then can link to those blog pages (fills up the blog and more room for details there)
+        //same with experience (or deeplink into my linkedin)
         name: 'Devfolio',
         description:
           'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
