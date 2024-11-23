@@ -8,7 +8,6 @@ description: 'initial posting'
 
 As of 2024 my Microsoft Azure subscription ended and I did not do a great job recovering all of my db content of past blogs. This is a list of all my content that I could save from my site.
 
-![Mountain](./mountain.jpg)
 
                                         <p>The best thoughts...are those that tell you what you already know.</p>
 

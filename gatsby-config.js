@@ -54,10 +54,12 @@ module.exports = {
       {
         name: 'Amazon',
         description: 'Software Developer Manager (L6), March 2019 - Present',
+        link: '',
       },
       {
         name: 'Microsoft',
         description: 'Program Manager 2, November 2015 - March 2019',
+        link: '',
       },
       {
         name: 'Penn State Research',

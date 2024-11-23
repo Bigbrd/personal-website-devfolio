@@ -21,6 +21,10 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const medium = get(metadata, 'medium', false);
+  const youtube = get(metadata, 'youtube', false);
+  const poker = get(metadata, 'poker', false);
+  const paypal = get(metadata, 'paypal', false);
 
   return (
     <div className={classes.wrapper}>
@@ -56,6 +60,34 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <li className={classes.item}>
               <a className={classes.link} href={linkedin}>
                 LinkedIn
+              </a>
+            </li>
+          )}
+          {medium && (
+            <li className={classes.item}>
+              <a className={classes.link} href={medium}>
+                Medium
+              </a>
+            </li>
+          )}
+          {youtube && (
+            <li className={classes.item}>
+              <a className={classes.link} href={youtube}>
+                Youtube
+              </a>
+            </li>
+          )}
+          {poker && (
+            <li className={classes.item}>
+              <a className={classes.link} href={poker}>
+                Poker
+              </a>
+            </li>
+          )}
+          {paypal && (
+            <li className={classes.item}>
+              <a className={classes.link} href={paypal}>
+                Paypal
               </a>
             </li>
           )}

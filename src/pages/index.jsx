@@ -47,6 +47,10 @@ export const pageQuery = graphql`
         author
         github
         linkedin
+        medium
+        youtube
+        poker
+        paypal
         projects {
           name
           description
