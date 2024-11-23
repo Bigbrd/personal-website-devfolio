@@ -7,20 +7,29 @@ module.exports = {
     // Main Site Title
     title: `Bryan Dickens  | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Amazon software developer manager, former Microsoft Azure engineer. still can't dunk.`,
     // Optional: Twitter account handle
     author: `@brdick`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/Bigbrd`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/brdickens`,
+    medium: 'https://medium.com/@brdick',
+    youtube: 'https://www.youtube.com/user/brd102693',
+    poker: 'http://pokerdb.thehendonmob.com/player.php?a=r&n=289833',
+    paypal: 'https://paypal.me/bryandickens',
+
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Everyone who’s ever taken a shower has an idea. It’s the person who gets out of the shower and does something about it who makes a difference. - Nolan Bushnell
+    When I write down my ideas, everything is already finished! - Mozart
+    
+    My current interests are in Machine Learning, Virtual Reality, App Development, and anything start-up related.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        
+        //TODO figure out how to put more than just github and linkedin and use the cool symbols from my last site
         //IDEA - make blog pages out of the projects then can link to those blog pages (fills up the blog and more room for details there)
+        //copy them over in full as separate blog pages, then link to it. grab the images too
         //same with experience (or deeplink into my linkedin)
         name: 'Devfolio',
         description:
@@ -43,36 +52,30 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Amazon',
+        description: 'Software Developer Manager (L6), March 2019 - Present',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Microsoft',
+        description: 'Program Manager 2, November 2015 - March 2019',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Penn State Research',
+        description: 'Research Assistant, September 2013 - August 2015',
+        link: 'http://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/10287/How-Virtual-Reality-can-Improve-Online-Learning.aspx',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Programming Languages',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        'Java • Python • TypeScript • C# • Swift • PHP'
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Amazon Web Services (AWS), Microsoft Azure, Microsoft Power BI, Software Design, CI / CD, API design, Agile / Scrum',
       },
     ],
   },
